@@ -2,17 +2,17 @@
 <html lang="en">
 <head>
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta http-equiv="refresh" content="5">
     <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> My blog</title>
     <link rel="stylesheet" href="./assets/css/styles.css">
     <link rel="stylesheet" href="./assets/css/form.css">
+    
 </head>
 <body>
-    <section class="wraped">
+    <section id="theme" class="light">
         <header>
-             <div id="icon-head" class="icon-head"> <a href="#"><img id="image" name="image" src="./assets/images/sun.jpg" alt="sun describing Light mode/moon describing dark mode"></a></div>
+             <div id="icon-head" class="icon-head"> <img onclick="changeTheme()" id="myImage" name="image" src="./assets/images/sun.jpg" alt="sun describing Light mode/moon describing dark mode"></div>
         </header>
         <main>
             <div class="float-left">
@@ -22,17 +22,19 @@
             </div>
             <div class="float-right">
                 <div class="form-title"><h2>What's on your mind?</h2></div>
-                <form action="blog.html">
+                <form id="myForm">
                     <label for="username">Username</label>
-                    <input type="text" name="username" required>
+                    <input autocomplete="off" type="text" name="username" id="username">
                     <label for="title"> Title</label>
-                    <input type="text" name="title" required>
+                    <input autocomplete="off" type="text" name="title" id="title">
                     <label for="content"> Content</label>
-                    <textarea name="content" id="" cols="30" rows="10"></textarea>
-                    <button type="submit">Submit</button>
+                    <textarea autocomplete="off" name="content" id="content" cols="30" rows="10"></textarea>
+                    <button id="saveForm">Submit</button>
                 </form>
             </div>
         </main>
     </section>
+    <script src="./assets/javascript/logic.js"></script>
+    <script src="./assets/javascript/form.js"></script>
 </body>
 </html>

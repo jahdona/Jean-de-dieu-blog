@@ -1,0 +1,57 @@
+input[type=text],
+textarea,
+.form-title
+{
+    
+    width: 98%;
+   padding: 10px 20px;
+   margin-top: 10px;
+   margin-bottom: 10px;
+   margin-left: 20px;
+    display: block;
+}
+.dark button{
+    background-color: #0c0568;
+    color: #d8d7e7;
+    font-size: 30px;
+    width: 60%;
+   margin-left: 100px;
+   border-radius: 20px;
+}
+.dark main .float-right input[type=text] 
+{
+    background-color: rgb(134, 170, 206);
+    color: #053462;
+}
+.dark main .float-right textarea
+{
+    background-color: rgb(134, 170, 206);
+    color: #053462;
+}
+textarea{
+    height:100px;
+
+}
+label{
+    font-size: 20px;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+.form-title{
+    text-align: center;
+}
+.dark main .float-left .blog1{
+    background-color: rgb(134, 170, 206);
+    color: #053462;
+}
+.light button{
+    background-color: #0c0568;
+    color: #d8d7e7;
+    font-size: 30px;
+    width: 60%;
+   margin-left: 100px;
+   border-radius: 20px;
+}
+button:hover{
+    cursor: pointer;
+}
