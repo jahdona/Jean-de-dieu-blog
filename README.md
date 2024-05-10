@@ -50,7 +50,7 @@ Shows the blog display in light mode
 ![Shows the blog display in dark mode.](./assets/images/lightblog2.png)
 
 ## Link of Deployed Application
- Link: [`Jean de Dieu Blog`](https://jahdona.github.io/jean-de-dieu-blog/)
+ Link: [`Jean de Dieu Blog`](https://jahdona.github.io/Jean-de-dieu-blog/)
 
 ## Credits
 
