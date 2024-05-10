@@ -38,10 +38,11 @@ function saveFormData(){
     //add new form data to the array
 
     dataArray.push(dataObject);
+    console.log(dataArray); 
     username.value='';
     title.value='';
     content.value='';
-    console.log(dataArray);  
+     
     const jsonData=JSON.stringify(dataArray);
     localStorage.setItem('formData',jsonData);
 

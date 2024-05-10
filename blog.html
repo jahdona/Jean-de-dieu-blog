@@ -7,20 +7,24 @@
     <link rel="stylesheet" href="./assets/css/blog.css">
     <title>Display Blog</title>
     <body>
-        <section class="light">
+        <section class="light" id="theme">
         <header>
-            <div class="blog-head"><h1>My First Blog</h1></div> <div id="icon-head" class="icon-head"> <img onclick="changeTheme()" id="myImage" name="image" src="./assets/images/sun.jpg" alt="sun describing Light mode/moon describing dark mode"></div>
+            <div class="blog-head"><h1>My First Blog</h1></div> <div id="icon-head" class="icon-head"> <button style='font-size:15px; background-color: black; color: antiquewhite;'><span >&#11013;</span><a href="index.html" style="text-decoration: none; color: antiquewhite;">Back</a></button>&nbsp;&nbsp;<img onclick="changeTheme()" id="myImage" name="image" src="./assets/images/sun.jpg" alt="sun describing Light mode/moon describing dark mode"></div>
         </header>
         <main id="blog-main">
+            <div class="formDatalist" id="formDataList"></div>
+    
             
         </main>
-        </section>
+        
         <footer>
             <div class="blog-author" style="font-size: 40px;">Made with <span style="color: red;">&#10084;</span> by Jean de Dieu Habiyaremye </div>
             <p><span>Portifolio:</span>Jean de Dieu Habiyaremye</p>
             <p><span>Blog:</span>Full -Stack Blog</p>
             <p><span>Email:</span>jahdonah@yahoo.com</p>
         </footer>
+    </section>
+        <script src="./assets/javascript/logic.js"></script>
         <script src="./assets/javascript/blog.js"></script>
     </body>
 </html>
