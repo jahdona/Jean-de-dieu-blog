@@ -50,7 +50,7 @@ function saveFormData(){
 saveButton.addEventListener('click',function(event){
     event.preventDefault();
     saveFormData();
-    window.location.href='../Jean-de-dieu-blog/blog.html';
+    window.location.href='../blog.html';
 });
 function init(){
     saveFormData();
