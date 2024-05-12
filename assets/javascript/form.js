@@ -9,10 +9,6 @@ let dataArray=[];
 let dataObject={};
 function saveFormData(){
    
-    //const formData= new FormData(form);
-    
-   
- 
  //create object with the value from the form
  dataObject={
     username:username.value,
@@ -23,16 +19,7 @@ function saveFormData(){
     alert("Username, Title or Content should not be empty");
     return;
  }
-    //getting data using for each loop and store in object
-   /* formData.forEach((value,key)=>{
-        dataObject[key]=value;
-        if(dataObject[key]===null)
-        {
-            return
-        }
-    });*/
-    
-    //Retrieve existing data from localStorage or initialize an empty array
+
     else{
      dataArray=JSON.parse(localStorage.getItem('formData'))||[];
     //add new form data to the array
