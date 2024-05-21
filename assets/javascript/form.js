@@ -37,7 +37,7 @@ function saveFormData(){
 saveButton.addEventListener('click',function(event){
     event.preventDefault();
     saveFormData();
-    window.location.href='../blog.html';
+    location.href='./blog.html';
 });
 function init(){
     saveFormData();
