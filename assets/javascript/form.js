@@ -37,8 +37,11 @@ function saveFormData(){
 saveButton.addEventListener('click',function(event){
     event.preventDefault();
     saveFormData();
-    location.href='./blog.html';
+    redirect();
 });
+function redirect(){
+    location.href='./blog.html';
+}
 function init(){
     saveFormData();
 }
